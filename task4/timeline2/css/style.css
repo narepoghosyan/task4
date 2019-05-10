@@ -1,0 +1,243 @@
+body {
+	background-color: #EBEBEB !important;
+	overflow-x: hidden;
+}
+
+.sidebar {
+	width: 100%;
+	height: 100%;
+	background-color: #2D2D2D;
+}
+
+.logo {
+	font-family: 'Parisienne', cursive;
+    color: #CACACA;
+    font-size: 30px;
+}
+
+.links {
+	list-style: none;
+}
+
+li {
+	margin-top: 30px !important;
+}
+
+li a:hover {
+	color: #7E7E7E;
+}
+
+.link {
+    color: #7E7E7E;
+    font-weight: bold;
+}
+
+.links2 {
+    list-style: none;
+    margin-top: 100px;
+}
+
+.top {
+	box-shadow: 5px 5px 5px #D8D8D8;
+}
+
+.quantity {
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #EC7173;
+	color: white;
+	font-size: 12px;
+	position: absolute;
+	left: 20px;
+	top: -15px;
+}
+
+.notification {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.num {
+	font-size: 40px;
+}
+
+.user-div {
+	border-left: 5px solid #EAEDF2;
+}
+
+.profile {
+	margin: 20px auto 10px auto;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-image: url('../images/man.jpg');
+	background-size: cover;
+}
+
+.request {
+	color: #fff;
+	background-color:#0FB14C;
+	border-radius: 3px;
+	border: none;
+}
+
+.bar {
+	width: 10px;
+	height: 120px;
+	background-image: linear-gradient(#457359, #6EAB8A, #DEE2E3);
+}
+
+.green-line {
+	width: 5px;
+	height: 200px;
+	background-color: #238B56;
+	margin: 10px auto;
+}
+
+.green-dot {
+	width:17px;
+	height: 17px;
+	border-radius: 50%;
+	background-color: #238B56;
+	margin: 0 auto;
+}
+
+.work {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.green-smile {
+	color: #238B56;
+	font-size: 40px;
+}
+
+.pink-bell {
+	color: #E78292;
+	font-size: 25px;
+}
+
+.left-div {
+	text-align: right;
+}
+
+.right-div {
+	border: 1px solid #D8D8D8;
+	padding: 10px 20px;
+}
+
+.right-div:before {
+	content: '';
+	width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-right: 10px solid #ffffff;
+	border-bottom: 10px solid transparent;
+	position:absolute;
+	right: 97%;
+	top: 10px;	
+}
+
+.big-num {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.orange-bar {
+	width: 10px;
+	height: 80px;
+	background-image: linear-gradient(#D1B182, #E3C9AE, #FFFFFF);
+	
+}
+
+.orange {
+	color: #D1B182;
+}
+
+.provider-photo {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 1px solid gray;
+	background-size: cover;
+	background-image: url(../images/man.jpg);
+}
+
+
+.gray-calendar {
+	font-size: 25px;
+	color: gray;
+}
+
+.pink-smile {
+	font-size: 40px;
+	color: #E78292;
+}
+
+.blue-bar {
+	width: 10px;
+	height: 80px;
+	background-image: linear-gradient(#FFFFFF, #649DA8, #FFFFFF);
+}
+
+.blue {
+	color: #649DA8;
+}
+
+.pink-line {
+	width: 5px;
+	height: 200px;
+	background-color: #E78292;
+	margin: 10px auto;
+}
+
+.pink-dot {
+	width:17px;
+	height: 17px;
+	border-radius: 50%;
+	background-color: #E78292;
+	margin: 0 auto;
+}
+
+.btn-pink {
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #E78292;
+	color: #FFFFFF;
+}
+
+.left-big-div {
+	border: 1px solid #D8D8D8;
+	padding: 10px 30px 10px 0px;
+	text-align: right;
+}
+
+.left-big-div:after {
+	content: '';
+	width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+	border-left: 10px solid #FFFFFF;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	position:absolute;
+	left: 97%;
+	top: 10px;	
+}
+
+@media screen and (max-width: 575px){
+	.left-div {
+		text-align: center;
+	}
+	.small-right-div {
+		text-align: center;
+	}
+}
+
+
